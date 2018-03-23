@@ -1,5 +1,25 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	text-align: center;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+	right: 0;
+	text-align: inherit;
+	background-color: teal;
+	width: 50%;
+}
+nav{
+	position: absolute;
+	top: 0;
+	left: 25%;
+	width: 50%;
+	background-color: navy;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+	font-size: 22px;
 }
