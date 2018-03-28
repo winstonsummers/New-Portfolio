@@ -1,21 +1,19 @@
-body {
+.wrapper {
 	text-align: center;
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	grid-template-rows: 25px 50px 200px 350px 15px;
 }
 footer{
-	position: absolute;
-	bottom: 0;
-	left: 25%;
-	right: 0;
+	grid-column: 2/3;
+	grid-row: 5;
 	text-align: inherit;
 	background-color: teal;
-	width: 50%;
 }
 nav{
-	position: absolute;
-	top: 0;
-	left: 25%;
-	width: 50%;
 	background-color: navy;
+	grid-column: 2/3;
+	grid-row: 1/2; 
 }
 nav a{
 	color: white;
@@ -23,7 +21,18 @@ nav a{
 	margin: 10px;
 	font-size: 22px;
 }
+nav a:hover{
+	color: pink;
+}
 .about{
-	width: 40%;
 	border: 3px solid black;
+}
+.about h1, .about h5{
+	margin: 0;
+	padding: 2px;
+	background-color: black;
+	color: white;
+}
+.about-head{
+	border-bottom: 2px outset yellow;
 }
