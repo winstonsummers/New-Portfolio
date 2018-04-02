@@ -2,7 +2,7 @@
 	text-align: center;
 	display: grid;
 	grid-template-columns: 25% 50% 25%;
-	grid-template-rows: 25px 50px 200px 350px 15px;
+	grid-template-rows: 25px 100px auto auto 15px;
 }
 footer{
 	grid-column: 2/3;
@@ -12,8 +12,6 @@ footer{
 }
 nav{
 	background-color: navy;
-	grid-column: 2/3;
-	grid-row: 1/2; 
 }
 nav a{
 	color: white;
@@ -24,8 +22,14 @@ nav a{
 nav a:hover{
 	color: pink;
 }
+.header{
+	grid-column: 2/3;
+	grid-row: 1/3; 
+}
 .about{
 	border: 3px solid black;
+	grid-column: 2/3;
+	grid-row: 3/4;
 }
 .about h1, .about h5{
 	margin: 0;
@@ -35,4 +39,8 @@ nav a:hover{
 }
 .about-head{
 	border-bottom: 2px outset yellow;
+}
+.projects{
+	grid-column: 2/3;
+	grid-row: 4/5;
 }
