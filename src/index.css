@@ -1,11 +1,14 @@
+html{
+	scroll-behavior: smooth;
+}
 .wrapper {
 	text-align: center;
 	display: grid;
-	grid-template-columns: 25% 50% 25%;
+	grid-template-columns: 18% 64% 18%;
 	grid-template-rows: 25px 100px auto auto 15px;
 }
 footer{
-	grid-column: 2/3;
+	grid-column: 1/4;
 	grid-row: 5;
 	text-align: inherit;
 	background-color: teal;
@@ -23,15 +26,15 @@ nav a:hover{
 	color: pink;
 }
 .header{
-	grid-column: 2/3;
+	grid-column: 1/4;
 	grid-row: 1/3; 
 }
-.about{
+#about{
 	border: 3px solid black;
 	grid-column: 2/3;
 	grid-row: 3/4;
 }
-.about h1, .about h5{
+#about h1, #about h5{
 	margin: 0;
 	padding: 2px;
 	background-color: black;
@@ -40,7 +43,7 @@ nav a:hover{
 .about-head{
 	border-bottom: 2px outset yellow;
 }
-.projects{
+#projects{
 	grid-column: 2/3;
 	grid-row: 4/5;
 }

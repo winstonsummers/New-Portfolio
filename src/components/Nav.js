@@ -4,12 +4,11 @@ class Nav extends Component{
 	render(){
 		return(
 			<nav>
-				<a href="#">Top</a>
-				<a href="#">About</a>
-				<a href="#">Projects</a>
-				<a href="#">Resume</a>
-				<a href="#">Github</a>
-				<a href="#">Linkedin</a>
+				{/*<a href="#about">About</a>
+				<a href="#projects">Projects</a>*/}
+				<a href="../../public/assets/winstonsummers.pdf" download>Resume</a>
+				<a href="https://github.com/winstonsummers" rel="noopener noreferrer" target="_blank">Github</a>
+				<a href="https://www.linkedin.com/in/winston-summers/" rel="noopener noreferrer" target="_blank">Linkedin</a>
 			</nav>
 		);
 	}
