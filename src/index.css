@@ -40,6 +40,9 @@ nav a:hover{
 	background-color: black;
 	color: white;
 }
+#about p{
+	margin: 1em;
+}
 .about-head{
 	border-bottom: 2px outset yellow;
 }

@@ -10,8 +10,9 @@ class About extends Component{
 				</div>
 				<p>I'm a Backend-leaning developer out of the Greater Seattle Area. Many people ask me why backend-leaning, to which I say; that's where the magic happens. UI is important, hence I prefer full stack, but its the backend where the amazing happens that makes modern websites come to life; single-page apps, web-security, routing and APIs, and many more useful features that make modern web apps great.</p>
 				<p>I'm a customer oriented developer who views scripting languages(Javascript, Python, etc) as my bread and butter. The thing that excited me the most about what I do is the constant opportunities to learn new skills and tricks, whether that's reading articles about new tech or find better solutions to the "problems" I'm working on.</p>
-				<p>Experienced leading small teams and training new hires; when a deadline needs to be met, I am frequently the one management comes to to lead the charge. Communication is one of my most valuable assets; a skill that I have refined on the job, working with clients and colleagues alike.</p>
-				<p>I am a Junior Web Developer excited to grow on existing skill sets and bring value to the team and company. Excelling at researching problems to find solutions, not giving up until the job is done. </p>
+				<p>I'm experienced leading small teams and training new hires; when a deadline needs to be met, I am frequently the one management comes to to lead the charge. Communication is one of my most valuable assets; a skill that I have refined on the job, working with clients and colleagues alike.</p>
+				<p>I'm a Junior Web Developer excited to grow on existing skill sets and bring value to the team and company. Excelling at researching problems to find solutions, not giving up until the job is done. </p>
+				<p>I'm Winston Summers</p>
 			</div>
 		);
 	}
