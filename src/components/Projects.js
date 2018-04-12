@@ -7,13 +7,13 @@ class Projects extends Component{
 		const list = Notable.map(item => {
 			return(
 				<div>
-					A Project :D
+					<h3>{item.title}</h3>
 				</div>
 			)
 		})
 		return(
 			<div id="projects">
-				Projects will go here
+				<h1>These are some of my Favourite Projects</h1>
 				{list}
 			</div>
 		);
