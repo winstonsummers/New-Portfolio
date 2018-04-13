@@ -8,12 +8,20 @@ class Projects extends Component{
 			return(
 				<div>
 					<h3>{item.title}</h3>
-					{item.team.length?item.team.map((member, index) =>{
+					{item.team.length ? <p><strong>The Team:</strong> {item.team.map((member, index) =>{
 						return(
 							<a href={item.teamLink[index]}>{member}, </a>
 						)
-					}):<p>Independant Project</p>}
-
+					})}</p> : <p>Independant Project</p>}
+					<p>{item.summary}</p>
+					<ul>
+						{item.tech.map(tech =>{
+							return(
+								<li>{tech}</li>
+							)
+						})}
+					</ul>
+					<a href={item.deployment}>Deployment</a><a href={item.github}>Github</a>
 					<hr />
 				</div>
 			)
