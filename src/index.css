@@ -1,20 +1,50 @@
 html{
 	scroll-behavior: smooth;
 }
+body{
+	background-image: linear-gradient(to right bottom, #59705a, #76836b, #93977e, #b0ab93, #cdc0ab);
+}
 .wrapper {
 	text-align: center;
 	display: grid;
-	grid-template-columns: 18% 64% 18%;
-	grid-template-rows: 25px 100px auto auto 15px;
+}
+@media screen and (max-width: 450px){
+	.wrapper{
+		grid-template-columns: 10% 80% 10%;
+		grid-template-rows: 150px auto auto 15px;
+	}
+}
+@media screen and (min-width: 450px){
+	.wrapper{
+		grid-template-columns: 10% 80% 10%; 
+		grid-template-rows: 200px auto auto 15px; 
+	}
+}
+@media screen and (min-width: 1000px){
+	.wrapper{
+		grid-template-columns: 18% 64% 18%;
+		grid-template-rows: 300px auto auto 15px;
+	}
+}
+@media screen and (min-width: 1400px){
+	.wrapper{
+		grid-template-columns: 24% 52% 24%;
+		grid-template-rows: 450px auto auto 15px;
+	}
+}
+@media screen and (min-width: 2000px){
+	.wrapper{
+		grid-template-columns: 24% 52% 24%;
+		grid-template-rows: 800px auto auto 15px;
+	}
 }
 footer{
 	grid-column: 1/4;
-	grid-row: 5;
+	grid-row: 4;
 	text-align: inherit;
-	background-color: teal;
 }
 nav{
-	background-color: navy;
+	background-color: #375C64;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -27,30 +57,39 @@ nav a{
 	font-size: 22px;
 }
 nav a:hover{
-	color: pink;
+	color: #F8EAE8;
 }
 .header{
+	background-image: url("./banner.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 	grid-column: 1/4;
-	grid-row: 2/3; 
+	grid-row: 1/2; 
+}
+#about-container{
+	grid-column: 1/4;
+	grid-row: 2/3;
+	background-image: linear-gradient(to right bottom, #263827, #46533f, #686f59, #8b8d75, #b0ab93);
 }
 #about{
-	border: 3px solid black;
 	grid-column: 2/3;
-	grid-row: 3/4;
+	grid-row: 2/3;
 }
 #about h1, #about h5{
 	margin: 0;
 	padding: 2px;
-	background-color: black;
-	color: white;
 }
 #about p{
 	margin: 1em;
 }
 .about-head{
-	border-bottom: 2px outset yellow;
+}
+#projects-container{
+	grid-column: 1/4;
+	grid-row: 3/4;	
 }
 #projects{
 	grid-column: 2/3;
-	grid-row: 4/5;
+	grid-row: 3/4;
 }

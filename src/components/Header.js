@@ -4,7 +4,7 @@ class Header extends Component{
 	render(){
 		return(
 			<div className="header">
-				<h1>a banner will go here</h1>
+				my banner
 			</div>
 		);
 	}

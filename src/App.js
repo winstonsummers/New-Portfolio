@@ -14,7 +14,9 @@ class App extends Component {
       <div className="wrapper">
         <Nav />
         <Header />
+        <div id="about-container"></div>
         <About />
+        <div id="projects-container"></div>
         <Projects />
         <Footer />
       </div>

@@ -1,6 +1,6 @@
 const Notable = [
 	{
-		title: "TotM(Theater of the Mind",
+		title: "TotM(Theater of the Mind)",
 		team: [],
 		teamLink: [],
 		summary: "Text-based RPG, a fun through back to the \"good ol' days\" of pc gaming. Front-end game(HTML, CSS, Javascript)",
