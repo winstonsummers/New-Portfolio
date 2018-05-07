@@ -3,7 +3,14 @@ html{
 }
 .wrapper {
 	text-align: center;
-	display: grid;
+	display: grid; 
+}
+nav{
+	background-color: rgb(0, 81, 202);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 @media screen and (max-width: 450px){
 	.wrapper{
@@ -15,18 +22,21 @@ html{
 	.wrapper{
 		grid-template-columns: 10% 80% 10%; 
 		grid-template-rows: 75px auto auto 15px; 
+		row-gap: 10px;
 	}
 }
 @media screen and (min-width: 1000px){
 	.wrapper{
 		grid-template-columns: 18% 64% 18%;
 		grid-template-rows: 100px auto auto 15px;
+		row-gap: 18px;
 	}
 }
 @media screen and (min-width: 1400px){
 	.wrapper{
 		grid-template-columns: 24% 52% 24%;
 		grid-template-rows: 125px auto auto 15px;
+
 	}
 }
 @media screen and (min-width: 2000px){
@@ -39,13 +49,6 @@ footer{
 	grid-column: 1/4;
 	grid-row: 4;
 	text-align: inherit;
-}
-nav{
-	background-color: rgb(16, 196, 236);
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
 }
 nav a{
 	color: rgb(248, 245, 245);
@@ -64,12 +67,12 @@ nav a:hover{
 }
 .header h1{
 	text-align: left;
-	margin: 4% 0 0 15px;
+	margin: 5% 0 0 15px;
 }
 #about-container{
-	grid-column: 1/4;
+	grid-column: 2/3;
 	grid-row: 2/3;
-	background-color: green;
+	background-color: rgb(184, 143, 6);
 }
 #about{
 	grid-column: 2/3;
@@ -80,11 +83,12 @@ nav a:hover{
 	padding: 2px;
 }
 #about p{
-	margin: 1em;
+	margin: 1em 3em;
 }
 #projects-container{
-	grid-column: 1/4;
+	grid-column: 2/3;
 	grid-row: 3/4;	
+	background-color: rgb(6, 184, 6);
 }
 #projects{
 	grid-column: 2/3;
