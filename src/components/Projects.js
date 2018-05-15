@@ -10,7 +10,7 @@ class Projects extends Component{
 					<h3>{item.title}</h3>
 					{item.team.length ? <p><strong>The Team:</strong> {item.team.map((member, index) =>{
 						return(
-							<a href={item.teamLink[index]}>{member}, </a>
+							<a className="pro-link" href={item.teamLink[index]}>{member}, </a>
 						)
 					})}</p> : <p>Independant Project</p>}
 					<p>{item.summary}</p>
@@ -21,13 +21,14 @@ class Projects extends Component{
 							)
 						})}
 					</ul>
-					<a href={item.deployment}>Deployment</a><a href={item.github}>Github</a>
+					<a className="pro-link" href={item.deployment}>Deployment</a><a className="pro-link" href={item.github}>Github</a>
 					<hr />
 				</div>
 			)
 		})
 		return(
 			<div id="projects">
+					<p>&nbsp;</p>
 				<h1>These are some of my Favourite Projects</h1>
 				{list}
 			</div>

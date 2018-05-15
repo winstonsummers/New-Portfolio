@@ -60,7 +60,7 @@ nav a:hover{
 	color: rgb(223, 82, 228);
 }
 .header{
-	background-color: rgb(170, 28, 175);
+	background-color: rgb(223, 82, 228);
 	background-size: 100%;
 	grid-column: 2/3;
 	grid-row: 1/2; 
@@ -89,6 +89,14 @@ nav a:hover{
 	grid-column: 2/3;
 	grid-row: 3/4;	
 	background-color: rgb(6, 184, 6);
+}
+li{
+	list-style: none;
+}
+.pro-link{
+	text-decoration: none;
+	color: black;
+	padding: 3px
 }
 #projects{
 	grid-column: 2/3;
