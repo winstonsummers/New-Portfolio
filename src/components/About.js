@@ -5,7 +5,7 @@ class About extends Component{
 		return(
 			<div id="about">
 				<div className="about-head">
-					<p>&nbsp;</p>
+					{/*<p>&nbsp;</p>*/}
 					<h1>My name is Winston Summers</h1>
 					<h5>I know that was shocking to you by this time.</h5>
 				</div>
