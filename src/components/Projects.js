@@ -21,8 +21,10 @@ class Projects extends Component{
 							)
 						})}
 					</ul>
-					<a className="pro-link" href={item.deployment}>Deployment</a><a className="pro-link" href={item.github}>Github</a>
-					<hr />
+					<span className="righty">
+						<a className="pro-link" href={item.deployment}>Deployment</a>
+						<a className="pro-link" href={item.github}>Github</a>
+					</span>
 				</div>
 			)
 		})

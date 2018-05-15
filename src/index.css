@@ -101,18 +101,20 @@ nav a:hover{
 li{
 	list-style: none;
 }
-hr {
-    width: 70%;
-    border: 1px solid rgb(40,40,40);
-}
 .item{
-	margin: 5px 15%;
+	margin: 5% 15%;
 	text-align: left;
+	border-bottom: 2px solid rgb(40,40,40);
+	border-bottom-width: 70%; 
 }
 .pro-link{
 	text-decoration: none;
 	color: rgb(40,40,40);
 	padding: 3px
+}
+.righty{
+	display: block;
+	text-align: right;
 }
 #projects{
 	grid-column: 2/3;
