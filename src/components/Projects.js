@@ -6,7 +6,7 @@ class Projects extends Component{
 	render(){
 		const list = Notable.map(item => {
 			return(
-				<div>
+				<div className="item">
 					<h3>{item.title}</h3>
 					{item.team.length ? <p><strong>The Team:</strong> {item.team.map((member, index) =>{
 						return(

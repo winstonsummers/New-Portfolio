@@ -1,6 +1,10 @@
 html{
 	scroll-behavior: smooth;
 }
+body{
+	background-color: rgb(245,245,245);
+	color: rgb(40,40,40);
+}
 .wrapper {
 	text-align: center;
 	display: grid; 
@@ -66,13 +70,14 @@ nav a:hover{
 	grid-row: 1/2; 
 }
 .header h1{
+	font-family: 'Source Code Pro', monospace;
 	text-align: left;
 	margin: 5% 0 0 15px;
 }
 #about-container{
 	grid-column: 2/3;
 	grid-row: 2/3;
-	background-color: rgb(184, 143, 6);
+	background-color: rgb(255,143,0);
 }
 #about{
 	grid-column: 2/3;
@@ -96,9 +101,17 @@ nav a:hover{
 li{
 	list-style: none;
 }
+hr {
+    width: 70%;
+    border: 1px solid rgb(40,40,40);
+}
+.item{
+	margin: 5px 15%;
+	text-align: left;
+}
 .pro-link{
 	text-decoration: none;
-	color: black;
+	color: rgb(40,40,40);
 	padding: 3px
 }
 #projects{
