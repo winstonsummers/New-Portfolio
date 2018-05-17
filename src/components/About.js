@@ -13,7 +13,10 @@ class About extends Component{
 				<p><i>I am</i> a customer oriented developer who views scripting languages(Javascript, Python, etc) as my bread and butter. The thing that excited me the most about what I do is the constant opportunities to learn new skills and tricks, whether that's reading articles about new tech or find better solutions to the "problems" I'm working on.</p>
 				<p><i>I am</i> experienced leading small teams and training new hires; when a deadline needs to be met, I am frequently the one management comes to to lead the charge. Communication is one of my most valuable assets; a skill that I have refined on the job, working with clients and colleagues alike.</p>
 				<p><i>I am</i> a Junior Web Developer excited to grow on existing skill sets and bring value to the team and company. Excelling at researching problems to find solutions, not giving up until the job is done. </p>
-				<i>I am Winston Summers</i>
+				<div className="about-img">
+					<i>I am Winston Summers</i>
+					<img src="WSheadshot.jpg" alt="A stunning picture of Winston, how charming!"></img>
+				</div>
 				<p>&nbsp;</p>
 			</div>
 		);

@@ -83,6 +83,20 @@ nav a:hover{
 	grid-column: 2/3;
 	grid-row: 2/3;
 }
+.about-img{
+	display: grid;
+	grid-template-columns: 10% 40% 40% 10%;
+}
+.about-img img{
+	width: 100%;
+	grid-column: 3/4;
+}
+.about-img i{
+	font-size: x-large;
+	display: inline-grid;
+	grid-column: 2/3;
+	align-self: center;
+}
 #about h1, #about h5{
 	margin: 0;
 	padding: 2px;
@@ -102,7 +116,12 @@ li{
 	list-style: none;
 }
 img{
-	width: 100%;
+	width: 90%;
+
+}
+.img-link{
+	display: block;
+	text-align: center;
 }
 .item{
 	margin: 5% 15%;
