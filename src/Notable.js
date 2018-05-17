@@ -17,7 +17,7 @@ const Notable = [
 	{
 		title: "Venture",
 		team: ["Tony Phan", "Sweeney Arrnett", "Winston Summers"],
-		teamLink: ["https://github.com/rallysport206", "https://github.com/sweeneyyy", "https://github.com/winstonsummers"],
+		teamLink: ["http://www.phantony.net/", "https://github.com/sweeneyyy", "https://github.com/winstonsummers"],
 		summary: "Team MERN stack app for travelers to record packing list and find places to eat(MERN stack, Yelp-Fusion)",
 		tech: [
 			"Worked with MERN stack to present a clean looking app with dynamic features", 
