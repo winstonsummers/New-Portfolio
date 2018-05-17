@@ -2,7 +2,7 @@
   "name": "wsummers",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http//:winstonsummers.github.io/New-Portfolio",
+  "homepage": "https://winstonsummers.github.io/New-Portfolio/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
