@@ -101,6 +101,9 @@ nav a:hover{
 li{
 	list-style: none;
 }
+img{
+	width: 100%;
+}
 .item{
 	margin: 5% 15%;
 	text-align: left;

@@ -10,6 +10,7 @@ const Notable = [
 			"Created game logic and interpreted user input with Javascript", 
 			"Manipulated the DOM and created an interactive expeirence with Javascript"
 		],
+		imgPath: "totm.png",
 		deployment: "https://winstonsummers.github.io/TotM/",
 		github: "https://github.com/winstonsummers/TotM"
 	},
@@ -23,6 +24,7 @@ const Notable = [
 			"Used the Yelp-Fusion API and node module to get results on the backend and give users options", 
 			"Used Auth and Mongodb so users can sign in and save data that they may want to retrieve later"
 		],
+		imgPath: "venture.png",
 		deployment: "https://venture-js.herokuapp.com/",
 		github: "https://github.com/sweeneyyy/mern-project-3"
 	}
@@ -32,6 +34,7 @@ const Notable = [
 	// 	teamLink: [],
 	// 	summary: undefined,
 	// 	tech: undefined,
+	//	imgPath: undefined,
 	// 	deployment: undefined,
 	// 	github: undefined
 	// }

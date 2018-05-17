@@ -21,9 +21,10 @@ class Projects extends Component{
 							)
 						})}
 					</ul>
+					<img src={item.imgPath} alt=""></img>
 					<span className="righty">
-						<a className="pro-link" href={item.deployment}>Deployment</a>
-						<a className="pro-link" href={item.github}>Github</a>
+						<a className="pro-link" href={item.deployment} rel="noopener noreferrer" target="_blank">Deployment</a>
+						<a className="pro-link" href={item.github} rel="noopener noreferrer" target="_blank">Github</a>
 					</span>
 				</div>
 			)
