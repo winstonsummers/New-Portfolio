@@ -25,7 +25,6 @@ class Projects extends Component{
 						<img src={item.imgPath} alt=""></img>
 					</a>
 					<span className="righty">
-						<a className="pro-link" href={item.deployment} rel="noopener noreferrer" target="_blank">Deployment</a>
 						<a className="pro-link" href={item.github} rel="noopener noreferrer" target="_blank">Github</a>
 					</span>
 				</div>
