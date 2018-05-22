@@ -12,3 +12,9 @@ I've added some Flexbox to clean up how a couple things look. Fun fact; CSS Grid
 # Where to now?
 
 The finishing touches of development and deployment, using this portfolio to find a job and ultimately world domination!
+
+# The Final Update
+
+With the finishing touches put on there is only one thing left to do....
+
+A special thanks to Cole Wilson and Joshua Cole for design consulting. You guys are Awesome!
