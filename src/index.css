@@ -6,8 +6,11 @@ body{
 	color: rgb(40,40,40);
 	font-family: 'Roboto Slab', serif;
 }
-.wrapper {
+h1, h5 {
 	text-align: center;
+}
+.wrapper {
+	text-align: left;
 	display: grid; 
 }
 nav{
@@ -16,6 +19,7 @@ nav{
 	top: 0;
 	left: 0;
 	width: 100%;
+	text-align: center;
 }
 @media screen and (max-width: 450px){
 	.wrapper{
@@ -53,15 +57,19 @@ nav{
 footer{
 	grid-column: 1/4;
 	grid-row: 4;
-	text-align: inherit;
+	text-align: center;
 }
 nav a{
 	color: rgb(248, 245, 245);
 	text-decoration: none;
+	padding: 2px;
 	margin: 5px 20px;
 	font-size: 22px;
 	font-weight: 900;
 	display: inline-block;
+}
+nav a:hover { 
+	background-color: #303030; 
 }
 .header{
 	background-color: rgb(223, 82, 228);
