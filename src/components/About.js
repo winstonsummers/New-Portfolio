@@ -6,7 +6,7 @@ class About extends Component{
 			<div id="about">
 				<div className="about-head">
 					{/*<p>&nbsp;</p>*/}
-					<h1>Hello World, my name is PAtrick Hubbell</h1>
+					<h1>Hello World, my name is Patrick Hubbell</h1>
 					<h5>There are two types of Data Scientists.<br></br>1) Those who know how to extrapolate from missing data. </h5>
 				</div>
 				<p><i>I am</i> a Data Scientist based in the Greater Seattle Area. Many people ask me why I got into Data Science, to which I say; What better way to understand the patterns of the world. Data Science is so important in the knowings of how the world recieves information. From the "You may also like:..." list on Netflix, to translating other languages to english or another language, all the way to statistics for sports. Data Science is used for it all.</p>
