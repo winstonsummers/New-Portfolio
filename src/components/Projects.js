@@ -33,7 +33,7 @@ class Projects extends Component{
 		return(
 			<div id="projects">
 					{/*<p>&nbsp;</p>*/}
-				<h1>These are some of my Favourite Projects</h1>
+				<h1>These are some of my Favorite Projects</h1>
 				{list}
 			</div>
 		);

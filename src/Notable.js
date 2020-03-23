@@ -1,32 +1,33 @@
 const Notable = [
 	{
-		title: "TotM(Theater of the Mind)",
+		title: "One Neat Project",
 		team: [],
 		teamLink: [],
-		summary: "Text-based RPG, a fun through back to the \"good ol' days\" of pc gaming. Front-end game(HTML, CSS, Javascript)",
+		summary: "A Whiskey recommendation system based off rating of four different Whiskey review sites. (Pandas, BeautifulSoup, Selenium)",
 		tech: [	
-			"Incorporated user inputs with logic and mechanics", 
-			"Created a UI in HTML and CSS that looks the part and functions effectively", 
-			"Created game logic and interpreted user input with Javascript", 
-			"Manipulated the DOM and created an interactive expeirence with Javascript"
+			"Scraped four different review sites to gather data.", 
+			"Cleaned the reviews so they were in numerical values and more user friendly.", 
+			"Using Cosine-Similarity, found how similar one review is to another.", 
+			"Taking in a User-Input and returnning the top 10 similar results."
 		],
-		imgPath: "totm.png",
-		deployment: "https://winstonsummers.github.io/TotM/",
-		github: "https://github.com/winstonsummers/TotM"
+		imgPath: "barrels-boards-buffalo-trace-distillery-cellar.jpg",
+		// deployment: "https://winstonsummers.github.io/TotM/",
+		github: "https://github.com/Patrick-Hubbell/OneNeatProject"
 	},
 	{
-		title: "Venture",
-		team: ["Tony Phan", "Sweeney Arrnett", "Winston Summers"],
-		teamLink: ["http://www.phantony.net/", "https://github.com/sweeneyyy", "https://github.com/winstonsummers"],
-		summary: "Team MERN stack app for travelers to record packing list and find places to eat(MERN stack, Yelp-Fusion)",
+		title: "Skagit-Valley-Flooding",
+		team: ["Chris Chorliss", "Patrick Hubbell"],
+		teamLink: ["https://github.com/ChrisSCorliss", "https://github.com/Patrick-Hubbell"],
+		summary: "Taking in Skagit River Height returns threat levels for chances of floods.(Pandas, Matplotlib, ARIMA)",
 		tech: [
-			"Worked with MERN stack to present a clean looking app with dynamic features", 
-			"Used the Yelp-Fusion API and node module to get results on the backend and give users options", 
-			"Used Auth and Mongodb so users can sign in and save data that they may want to retrieve later"
+			"Taking the data measured every five minutes from one gauge and every 15 minutes from another for 19 years.", 
+			"Combine them into one data frame based on daily averages.", 
+			"Created a user input app to return threat levels and water level of the time entered.",
+			"Using ARIMA date time model to predict future results of possible flood times."
 		],
-		imgPath: "venture.png",
-		deployment: "https://venture-js.herokuapp.com/",
-		github: "https://github.com/sweeneyyy/mern-project-3"
+		imgPath: "flood-map.png",
+		// deployment: "https://venture-js.herokuapp.com/",
+		github: "https://github.com/Patrick-Hubbell/Skagit-Valley-Flooding"
 	}
 	// {
 	// 	title: undefined,

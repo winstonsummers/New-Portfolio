@@ -5,11 +5,11 @@ class Footer extends Component{
 		return(
 			<footer>
 				<p>
-					Winston Summers&copy; 2018
+					Patrick Hubbell&copy; 2019
 					<br/>
 					Find me on 	
-					<a className="pro-link" href="https://github.com/winstonsummers" rel="noopener noreferrer" target="_blank">Github</a>and
-					<a className="pro-link" href="https://www.linkedin.com/in/winston-summers/" rel="noopener noreferrer" target="_blank">Linkedin.</a>
+					<a className="pro-link" href="https://github.com/Patrick-Hubbell" rel="noopener noreferrer" target="_blank">Github</a>and
+					<a className="pro-link" href="https://www.linkedin.com/in/patrickhubbell/" rel="noopener noreferrer" target="_blank">Linkedin.</a>
 				</p>
 			</footer>
 		);
