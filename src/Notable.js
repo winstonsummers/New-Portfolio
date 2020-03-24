@@ -28,9 +28,9 @@ const Notable = [
 		imgPath: "flood-map.png",
 		// deployment: "https://venture-js.herokuapp.com/",
 		github: "https://github.com/Patrick-Hubbell/Skagit-Valley-Flooding"
-	}
+	},
 	{
-		title: "Reddit-Scrape",
+	title: "Reddit-Scrape",
 		team: [],
 		teamLink: [],
 		summary: "Using Reddits API key, scraped r/KeepWriting (a reddit page that deals with all forms of writing) and r/EroticWriting (a reddit page that deals with Erotic forms of writing). (Pandas, Numpy, BeautifulSoup)",
@@ -42,6 +42,17 @@ const Notable = [
 		imgPath: "reddit.png",
 		// deployment: undefined,
 		github: "https://github.com/Patrick-Hubbell/Reddit-Scrape"
+	},
+	// {
+	// 	title: undefined,
+	// 	team: [],
+	// 	teamLink: [],
+	// 	summary: undefined,
+	// 	tech: undefined,
+	//	imgPath: undefined,
+	// 	deployment: undefined,
+	// 	github: undefined
+	// }
 ];
 
 export default Notable;
