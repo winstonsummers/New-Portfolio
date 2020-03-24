@@ -1,4 +1,5 @@
-https://winstonsummers.github.io/New-Portfolio/
+https://patrick-hubbell.github.io/New-Portfolio/
+
 
 # My New Portfolio 😄
 At the time I am writing this my new portfolio is nearly complete. This of course brings me one step closer to world domination, my ultimate goal. 
@@ -19,4 +20,4 @@ The finishing touches of development and deployment, using this portfolio to fin
 
 With the finishing touches put on there is only one thing left to do....
 
-A special thanks to Cole Wilson and Joshua Cole for design consulting. You guys are Awesome!
+A special thanks to Cole Wilson, Joshua Cole, and Winston Summers for design consulting. You guys are Awesome!
