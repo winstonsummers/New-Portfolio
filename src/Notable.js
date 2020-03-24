@@ -29,16 +29,19 @@ const Notable = [
 		// deployment: "https://venture-js.herokuapp.com/",
 		github: "https://github.com/Patrick-Hubbell/Skagit-Valley-Flooding"
 	}
-	// {
-	// 	title: undefined,
-	// 	team: [],
-	// 	teamLink: [],
-	// 	summary: undefined,
-	// 	tech: undefined,
-	//	imgPath: undefined,
-	// 	deployment: undefined,
-	// 	github: undefined
-	// }
+	{
+		title: "Reddit-Scrape",
+		team: [],
+		teamLink: [],
+		summary: "Using Reddits API key, scraped r/KeepWriting (a reddit page that deals with all forms of writing) and r/EroticWriting (a reddit page that deals with Erotic forms of writing). (Pandas, Numpy, BeautifulSoup)",
+		tech: [
+			"Scrapping two seperate reddit pages for the contexts of words",
+			"Use this data to create a model that can seperate erotic writing from not erotic",
+			"Using this model, made a recommendation for Amazon to update their parental controls for the free books on the kindles"
+		],
+		imgPath: "reddit.png",
+		// deployment: undefined,
+		github: "https://github.com/Patrick-Hubbell/Reddit-Scrape"
 ];
 
 export default Notable;
