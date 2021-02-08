@@ -15,7 +15,7 @@ class About extends Component{
 				<p><i>I am</i> a Data Specialist who's excited to build on existing skill sets and bring value to the team and company. I thrive when researching problems to find solutions, never giving up until the job is done. </p>
 				<div className="about-img">
 					<i>I am Patrick Hubbell</i>
-					<img src="(24)pchubbell-2.jpg" alt="A stunning picture of Patrick, how charming!"></img>
+					<img src="received_859924054787187.jpeg" alt="A stunning picture of Patrick, how charming!"></img>
 				</div>
 				<p>&nbsp;</p>
 			</div>
