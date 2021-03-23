@@ -13,7 +13,11 @@ class Projects extends Component {
               <strong>The Team:</strong>{" "}
               {item.team.map((member, index) => {
                 return (
-                  <a className="pro-link" href={item.teamLink[index]} key={member + index}>
+                  <a
+                    className="pro-link"
+                    href={item.teamLink[index]}
+                    key={member + index}
+                  >
                     {member},{" "}
                   </a>
                 );
