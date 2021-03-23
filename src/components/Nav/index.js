@@ -18,7 +18,7 @@ class Nav extends Component{
 			text: "Projects",
 		},
 		{
-			href: "wsresume.pdf",
+			href: "Winston_Summers.pdf",
 			download: true, 
 			text: "Resume",
 		},
