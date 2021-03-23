@@ -3,7 +3,7 @@ const Notable = [
 		title: "TotM(Theater of the Mind)",
 		team: [],
 		teamLink: [],
-		summary: "Text-based RPG, a fun through back to the \"good ol' days\" of pc gaming. Front-end game(HTML, CSS, Javascript)",
+		summary: "Text-based RPG, a fun throw back to the \"good ol' days\" of pc gaming. Front-end game(HTML, CSS, Javascript)",
 		tech: [	
 			"Incorporated user inputs with logic and mechanics", 
 			"Created a UI in HTML and CSS that looks the part and functions effectively", 
@@ -29,14 +29,14 @@ const Notable = [
 		github: "https://github.com/sweeneyyy/mern-project-3"
 	}
 	// {
-	// 	title: undefined,
-	// 	team: [],
-	// 	teamLink: [],
-	// 	summary: undefined,
-	// 	tech: undefined,
-	//	imgPath: undefined,
-	// 	deployment: undefined,
-	// 	github: undefined
+	// 	title: string,
+	// 	team: string[],
+	// 	teamLink: string[],
+	// 	summary: string,
+	// 	tech: string[],
+	//	imgPath: string,
+	// 	deployment: string,
+	// 	github: string
 	// }
 ];
 

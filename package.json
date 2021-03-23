@@ -5,7 +5,7 @@
   "homepage": "https://winstonsummers.github.io/New-Portfolio/",
   "dependencies": {
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.14.0",
     "react-scripts": "1.1.1"
   },
   "scripts": {

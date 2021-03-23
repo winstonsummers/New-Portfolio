@@ -5,7 +5,7 @@ import './index.css';
 import Footer from './components/Footer.js';
 import Projects from './components/Projects.js';
 import About from './components/About.js';
-import Nav from './components/Nav.js';
+import Nav from './components/Nav';
 
 class App extends Component {
   render() {
