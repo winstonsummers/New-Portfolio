@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default ({href, download = false, blank = false, text}) => {
+export default ({href, download = false, blank = false, text, className = false}) => {
     const aProp = {
         href,
         download,
@@ -11,5 +11,11 @@ export default ({href, download = false, blank = false, text}) => {
         aProp['target'] = "_blank"
     }
 
-    return <a style={{fontWeight: "bolder"}} {...aProp}>{text}</a>
+    if(className !== false) {
+        aProp['className'] = className
+    } else {
+        aProp['style'] = {fontWeight: "bolder"}
+    }
+
+    return <a {...aProp}>{text}</a>
 }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Notable from "../Notable.js";
+import { Spacer } from "./About/IAm.js";
 
 class Projects extends Component {
   render() {
@@ -50,7 +51,7 @@ class Projects extends Component {
     });
     return (
       <div id="projects">
-        {/*<p>&nbsp;</p>*/}
+        <Spacer />
         <h1>These are some of my Favorite Projects</h1>
         {list}
       </div>
