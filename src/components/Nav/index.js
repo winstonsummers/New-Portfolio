@@ -17,7 +17,7 @@ const navValues = [
     text: "Projects",
   },
   {
-    href: "Winston_Summers.PDF",
+    href: process.env.PUBLIC_URL + "Winston_Summers.PDF",
     download: true,
     text: "Resume",
   },
