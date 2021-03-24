@@ -27,4 +27,4 @@ A special thanks to Cole Wilson and Joshua Cole for design consulting. You guys 
 
 # the 2021 update
 
-Starting that job hunt again, man this is outdated. First things first some refactor... ooooh those class components.
+Starting that job hunt again, man this is outdated. First things first some refactor... ooooh those useless class components.
