@@ -1,4 +1,23 @@
-const Notable = [
+
+// below is a template... or interface for how data should be shaped for display in the projects section.
+// currently there are school and personal
+
+  // {
+  // 	title: string,
+  // 	team: string[],
+  // 	teamLink: string[],
+  // 	summary: string,
+  // 	tech: string[],
+  //	imgPath: string,
+  // 	deployment: string,
+  // 	github: string
+  // }
+
+
+export const personal = []
+
+
+export const school = [
   {
     title: "TotM(Theater of the Mind)",
     team: [],
@@ -36,16 +55,4 @@ const Notable = [
     deployment: "https://venture-js.herokuapp.com/",
     github: "https://github.com/sweeneyyy/mern-project-3",
   },
-  // {
-  // 	title: string,
-  // 	team: string[],
-  // 	teamLink: string[],
-  // 	summary: string,
-  // 	tech: string[],
-  //	imgPath: string,
-  // 	deployment: string,
-  // 	github: string
-  // }
 ];
-
-export default Notable;
