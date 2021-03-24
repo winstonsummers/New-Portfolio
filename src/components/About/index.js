@@ -1,5 +1,5 @@
-import React from "react";
-import IAm, { Spacer } from "./IAm";
+import React, { Fragment } from "react";
+import IAm, { Para, Spacer } from "./IAm";
 import data from "./data";
 
 export default () => {
@@ -15,8 +15,9 @@ export default () => {
         <IAm text={i} key={key} />
       ))}
 
+      <Spacer />
       <div className="about-img">
-        <i>I am Winston Summers</i>
+        <Para text={<Fragment>TLDR: <i>I am Winston Summers</i></Fragment>} />
         <img
           src="WSheadshot.jpg"
           alt="A stunning picture of Winston, how charming!"

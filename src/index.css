@@ -37,14 +37,14 @@ nav {
 }
 @media screen and (min-width: 730px) {
   .wrapper {
-    grid-template-columns: 18% 64% 18%;
+    grid-template-columns: 14% 72% 14%;
     grid-template-rows: 20px auto auto 15px;
     row-gap: 18px;
   }
 }
 @media screen and (min-width: 1400px) {
   .wrapper {
-    grid-template-columns: 24% 52% 24%;
+    grid-template-columns: 20% 60% 20%;
     grid-template-rows: 20px auto auto 15px;
   }
 }
@@ -96,7 +96,7 @@ nav a:hover {
   grid-column: 3/4;
   border: 2px solid #303030;
 }
-.about-img i {
+.about-img p {
   font-size: x-large;
   display: inline-grid;
   grid-column: 2/3;
