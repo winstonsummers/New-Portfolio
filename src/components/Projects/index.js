@@ -1,6 +1,6 @@
 import React from "react";
-import Notable from "../Notable.js";
-import { Spacer } from "./About/IAm.js";
+import Notable from "./Notable.js";
+import { Spacer } from "../About/IAm.js";
 
 const list = Notable.map((item) => {
   return (
