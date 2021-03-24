@@ -7,7 +7,7 @@ export default (item) => {
       <h3>{item.title}</h3>
       {item.team.length ? (
         <p>
-          <strong>The Team:</strong>{" "}
+          <strong>The Team: </strong>
           {item.team.map((member, index) => {
             const text = index < item.team.length - 1 ? member + "," : member;
             return (

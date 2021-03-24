@@ -54,5 +54,3 @@ const Notable = [
 	// 	github: string
 	// }
 ];
-
-export default Notable;
