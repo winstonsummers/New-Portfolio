@@ -17,7 +17,7 @@ const navValues = [
     text: "Projects",
   },
   {
-    href: "Winston_Summers.pdf",
+    href: "Winston_Summers.PDF",
     download: true,
     text: "Resume",
   },
